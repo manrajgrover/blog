@@ -26,12 +26,12 @@ const PostShare = asyncComponent(() =>
     .catch(error => {})
 );
 
-const PostFooter = ({ classes, author, post, slug, facebook }) => {
+const PostFooter = ({ classes, author, post, slug, title }) => {
   return (
     <footer className={classes.footer}>
       <PostShare post={post} slug={slug} />
       <PostAuthor author={author} />
-      <PostComments post={post} slug={slug} facebook={facebook} />
+      <PostComments post={post} slug={slug} title={title} />
     </footer>
   );
 };
@@ -41,7 +41,7 @@ PostFooter.propTypes = {
   author: PropTypes.object.isRequired,
   post: PropTypes.object.isRequired,
   slug: PropTypes.string.isRequired,
-  facebook: PropTypes.object.isRequired
+  title: PropTypes.string.isRequired
 };
 
 export default injectSheet(styles)(PostFooter);

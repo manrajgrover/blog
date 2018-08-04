@@ -20,13 +20,12 @@ class PageTemplate extends React.Component {
 
   render() {
     const { data } = this.props;
-    const facebook = (((data || {}).site || {}).siteMetadata || {}).facebook;
 
     return (
       <Main>
         <Page page={data.page} />
         <Footer footnote={data.footnote} />
-        <Seo data={data.post} facebook={facebook} />
+        <Seo data={data.post} />
       </Main>
     );
   }
@@ -69,13 +68,6 @@ export const pageQuery = graphql`
     footnote: markdownRemark(id: { regex: "/footnote/" }) {
       id
       html
-    }
-    site {
-      siteMetadata {
-        facebook {
-          appId
-        }
-      }
     }
   }
 `;

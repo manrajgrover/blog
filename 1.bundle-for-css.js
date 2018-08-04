@@ -427,7 +427,7 @@ webpackJsonp([1],{
 	        _gatsbyLink2.default,
 	        {
 	          key: fields.slug,
-	          to: fields.slug,
+	          to: (0, _gatsbyLink.withPrefix)(fields.slug),
 	          onClick: linkOnClick,
 	          className: classes.link,
 	          "data-shape": "closed"
@@ -437,7 +437,12 @@ webpackJsonp([1],{
 	    }),
 	    _react2.default.createElement(
 	      _gatsbyLink2.default,
-	      { to: "/contact/", onClick: linkOnClick, className: classes.link, "data-shape": "closed" },
+	      {
+	        to: (0, _gatsbyLink.withPrefix)("/contact/"),
+	        onClick: linkOnClick,
+	        className: classes.link,
+	        "data-shape": "closed"
+	      },
 	      "Contact"
 	    )
 	  );
@@ -600,7 +605,12 @@ webpackJsonp([1],{
 	    { className: classes.header },
 	    _react2.default.createElement(
 	      _gatsbyLink2.default,
-	      { className: classes.avatarLink, onClick: avatarOnClick, to: "/", title: "back to Home page" },
+	      {
+	        className: classes.avatarLink,
+	        onClick: avatarOnClick,
+	        to: (0, _gatsbyLink.withPrefix)("/"),
+	        title: "back to Home page"
+	      },
 	      _react2.default.createElement(
 	        "div",
 	        { className: classes.avatar },

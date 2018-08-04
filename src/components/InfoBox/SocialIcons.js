@@ -17,9 +17,19 @@ const styles = theme => ({
   link: {
     display: "inline-block",
     padding: "5px",
-    "&:hover": {
+    "&[title='github']:hover": {
       "& svg": {
-        fill: theme.info.colors.socialIconsHover
+        fill: "#181717"
+      }
+    },
+    "&[title='twitter']:hover": {
+      "& svg": {
+        fill: "#01acee"
+      }
+    },
+    "&[title='facebook']:hover": {
+      "& svg": {
+        fill: "#3c5898"
       }
     }
   },

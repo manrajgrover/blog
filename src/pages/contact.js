@@ -17,8 +17,7 @@ const Contact = () => {
       <Article>
         <PageHeader title="Contact" />
         <Content>
-          Feel free to contact me by email: <Obfuscate email={config.contactEmail} /> or use the
-          form below.
+          Feel free to contact me by email: <Obfuscate email={config.contactEmail} />
         </Content>
       </Article>
     </Main>

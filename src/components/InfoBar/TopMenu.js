@@ -10,6 +10,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import Paper from "@material-ui/core/Paper";
 import PropTypes from "prop-types";
 import React from "react";
+import { withPrefix } from "gatsby-link";
 
 const styles = theme => ({
   topMenu: {
@@ -100,7 +101,7 @@ class TopMenu extends React.Component {
                         </a>
                       );
                     })}
-                    <a href="/contact/" style={{ display: "block" }}>
+                    <a href={withPrefix("/contact")} style={{ display: "block" }}>
                       <MenuItem
                         onClick={e => {
                           this.props.pageLinkOnClick(e);

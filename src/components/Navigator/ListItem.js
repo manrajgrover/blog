@@ -137,6 +137,8 @@ class ListItem extends React.Component {
   render() {
     const { classes, post, linkOnClick } = this.props;
 
+    console.log(post.node.frontmatter.cover.children[0].resolutions.srcSetWebp);
+
     return (
       <li
         className={`${classes.listItem} ${post.node.frontmatter.category}`}
@@ -146,7 +148,7 @@ class ListItem extends React.Component {
         <Link
           activeClassName="active"
           className={classes.listLink}
-          to={withPrefix(post.node.fields.slug)}
+          to={post.node.fields.slug}
           onClick={linkOnClick}
         >
           <div className={`${classes.listItemPointer} pointer`}>

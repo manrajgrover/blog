@@ -1,5 +1,5 @@
 import Avatar from "@material-ui/core/Avatar";
-import Link, { withPrefix } from "gatsby-link";
+import Link from "gatsby-link";
 import PropTypes from "prop-types";
 import React from "react";
 import injectSheet from "react-jss";
@@ -55,7 +55,7 @@ class InfoBar extends React.Component {
 
     return (
       <aside className={classes.infoBar}>
-        <Link to={withPrefix("/")} className={classes.avatarLink} onClick={this.homeLinkOnClick}>
+        <Link to="/" className={classes.avatarLink} onClick={this.homeLinkOnClick}>
           <Avatar alt={config.infoTitle} src={avatar} className={classes.avatar} />
         </Link>
         <h3 className={classes.title}>

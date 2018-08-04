@@ -29,6 +29,7 @@ const queries = [
 ];
 
 module.exports = {
+  pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
     description: config.siteDescription,
@@ -226,6 +227,6 @@ module.exports = {
       options: {
         include: /svg-icons/
       }
-    },
+    }
   ]
 };

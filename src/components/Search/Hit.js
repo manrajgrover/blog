@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
-import Link, { withPrefix } from "gatsby-link";
+import Link from "gatsby-link";
 
 const styles = theme => ({
   link: {
@@ -33,7 +33,7 @@ const Hit = props => {
   console.log(hit.fields.slug);
 
   return (
-    <Link to={withPrefix(hit.fields.slug)} className={classes.link}>
+    <Link to={hit.fields.slug} className={classes.link}>
       {hit.frontmatter.title}
       {hit.frontmatter.subTitle && <span>{hit.frontmatter.subTitle}</span>}
     </Link>

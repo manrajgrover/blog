@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import Link, { withPrefix } from "gatsby-link";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
 import LazyLoad from "react-lazyload";
@@ -146,7 +146,7 @@ class ListItem extends React.Component {
         <Link
           activeClassName="active"
           className={classes.listLink}
-          to={post.node.fields.slug}
+          to={withPrefix(post.node.fields.slug)}
           onClick={linkOnClick}
         >
           <div className={`${classes.listItemPointer} pointer`}>

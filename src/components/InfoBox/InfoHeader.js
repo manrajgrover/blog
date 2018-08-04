@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
-import Link from "gatsby-link";
+import Link, { withPrefix } from "gatsby-link";
 import IconButton from "@material-ui/core/IconButton";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -111,7 +111,12 @@ const InfoHeader = props => {
 
   return (
     <header className={classes.header}>
-      <Link className={classes.avatarLink} onClick={avatarOnClick} to="/" title="back to Home page">
+      <Link
+        className={classes.avatarLink}
+        onClick={avatarOnClick}
+        to={withPrefix("/")}
+        title="back to Home page"
+      >
         <div className={classes.avatar}>
           <img src={avatar} alt="" />
         </div>

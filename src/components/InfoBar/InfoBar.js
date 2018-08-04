@@ -1,15 +1,15 @@
+import Avatar from "@material-ui/core/Avatar";
+import Link, { withPrefix } from "gatsby-link";
+import PropTypes from "prop-types";
 import React from "react";
 import injectSheet from "react-jss";
-import PropTypes from "prop-types";
-import Avatar from "@material-ui/core/Avatar";
-import Link from "gatsby-link";
 import { connect } from "react-redux";
-
-import { setNavigatorPosition } from "../../state/store";
-import { featureNavigator, moveNavigatorAside } from "./../../utils/shared";
 
 import config from "../../../content/meta/config";
 import avatar from "../../images/jpg/avatar.jpg";
+import { setNavigatorPosition } from "../../state/store";
+
+import { featureNavigator, moveNavigatorAside } from "./../../utils/shared";
 import TopMenu from "./TopMenu";
 
 const styles = theme => ({
@@ -29,25 +29,15 @@ const styles = theme => ({
       bottom: 0,
       borderTop: `1px solid ${theme.base.colors.lines}`
     },
-    [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
-      display: "none"
-    }
+    [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: { display: "none" }
   },
   title: {
     float: "left",
     margin: "10px 0 0 15px",
     color: theme.bars.colors.text,
-    "& small": {
-      display: "block",
-      fontSize: ".65em",
-      margin: "2px 0 0 0"
-    }
+    "& small": { display: "block", fontSize: ".65em", margin: "2px 0 0 0" }
   },
-  avatarLink: {
-    display: "block",
-    float: "left",
-    margin: "13px 0 0 30px"
-  },
+  avatarLink: { display: "block", float: "left", margin: "13px 0 0 30px" },
   avatar: {
     width: "36px",
     borderRadius: "65% 75%",
@@ -65,7 +55,7 @@ class InfoBar extends React.Component {
 
     return (
       <aside className={classes.infoBar}>
-        <Link to="/" className={classes.avatarLink} onClick={this.homeLinkOnClick}>
+        <Link to={withPrefix("/")} className={classes.avatarLink} onClick={this.homeLinkOnClick}>
           <Avatar alt={config.infoTitle} src={avatar} className={classes.avatar} />
         </Link>
         <h3 className={classes.title}>
@@ -94,9 +84,7 @@ const mapStateToProps = (state, ownProps) => {
   };
 };
 
-const mapDispatchToProps = {
-  setNavigatorPosition
-};
+const mapDispatchToProps = { setNavigatorPosition };
 
 export default connect(
   mapStateToProps,

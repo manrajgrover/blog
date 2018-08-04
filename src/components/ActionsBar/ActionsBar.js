@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import injectSheet from "react-jss";
 import IconButton from "@material-ui/core/IconButton";
 
-import Link from "gatsby-link";
+import Link, { withPrefix } from "gatsby-link";
 import { connect } from "react-redux";
 import screenfull from "screenfull";
 
@@ -143,7 +143,7 @@ class ActionsBar extends React.Component {
             onClick={this.searchOnClick}
             component={Link}
             data-shape="closed"
-            to="/search/"
+            to={withPrefix("/search/")}
             title="Search"
             className={classes.button}
           >

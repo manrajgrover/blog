@@ -1,18 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Main from "../components/Main/";
-import { connect } from "react-redux";
-
 import "core-js/fn/array/find";
 import "prismjs/themes/prism-okaidia.css";
-import 'katex/dist/katex.min.css'
+import "katex/dist/katex.min.css";
 
+import PropTypes from "prop-types";
+import React from "react";
+import { connect } from "react-redux";
 
+import Footer from "../components/Footer/";
+import Main from "../components/Main/";
+import Post from "../components/Post/";
+import Seo from "../components/Seo";
 import { setNavigatorPosition, setNavigatorShape } from "../state/store";
 import { moveNavigatorAside } from "../utils/shared";
-import Post from "../components/Post/";
-import Footer from "../components/Footer/";
-import Seo from "../components/Seo";
 
 class PostTemplate extends React.Component {
   moveNavigatorAside = moveNavigatorAside.bind(this);
@@ -57,9 +56,12 @@ const mapDispatchToProps = {
   setNavigatorShape
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(PostTemplate);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(PostTemplate);
 
-//eslint-disable-next-line no-undef
+// eslint-disable-next-line no-undef
 export const postQuery = graphql`
   query PostBySlug($slug: String!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
-import Link from "gatsby-link";
+import Link, { withPrefix } from "gatsby-link";
 
 const styles = theme => ({
   infoMenu: {
@@ -33,7 +33,7 @@ const InfoMenu = props => {
         return (
           <Link
             key={fields.slug}
-            to={fields.slug}
+            to={withPrefix(fields.slug)}
             onClick={linkOnClick}
             className={classes.link}
             data-shape="closed"
@@ -42,7 +42,12 @@ const InfoMenu = props => {
           </Link>
         );
       })}
-      <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
+      <Link
+        to={withPrefix("/contact/")}
+        onClick={linkOnClick}
+        className={classes.link}
+        data-shape="closed"
+      >
         Contact
       </Link>
     </nav>

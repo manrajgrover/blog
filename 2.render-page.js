@@ -1,7 +1,7 @@
 exports.ids = [2];
 exports.modules = {
 
-/***/ 590:
+/***/ 524:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -16,13 +16,13 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _reactJss = __webpack_require__(177);
+	var _reactJss = __webpack_require__(175);
 	
 	var _reactJss2 = _interopRequireDefault(_reactJss);
 	
-	var _reactShare = __webpack_require__(591);
+	var _reactShare = __webpack_require__(525);
 	
-	var _config = __webpack_require__(456);
+	var _config = __webpack_require__(450);
 	
 	var _config2 = _interopRequireDefault(_config);
 	
@@ -92,11 +92,6 @@ exports.modules = {
 	    return _react2.default.createElement(
 	      "div",
 	      { className: classes.share },
-	      _react2.default.createElement(
-	        "span",
-	        { className: classes.label },
-	        "SHARE"
-	      ),
 	      _react2.default.createElement(
 	        "div",
 	        { className: classes.links },
@@ -175,7 +170,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 591:
+/***/ 525:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -184,7 +179,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _FacebookShareCount = __webpack_require__(592);
+	var _FacebookShareCount = __webpack_require__(526);
 	
 	Object.defineProperty(exports, 'FacebookShareCount', {
 	  enumerable: true,
@@ -193,7 +188,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _GooglePlusShareCount = __webpack_require__(602);
+	var _GooglePlusShareCount = __webpack_require__(544);
 	
 	Object.defineProperty(exports, 'GooglePlusShareCount', {
 	  enumerable: true,
@@ -202,7 +197,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _LinkedinShareCount = __webpack_require__(606);
+	var _LinkedinShareCount = __webpack_require__(548);
 	
 	Object.defineProperty(exports, 'LinkedinShareCount', {
 	  enumerable: true,
@@ -211,7 +206,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _PinterestShareCount = __webpack_require__(608);
+	var _PinterestShareCount = __webpack_require__(550);
 	
 	Object.defineProperty(exports, 'PinterestShareCount', {
 	  enumerable: true,
@@ -220,7 +215,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _VKShareCount = __webpack_require__(609);
+	var _VKShareCount = __webpack_require__(551);
 	
 	Object.defineProperty(exports, 'VKShareCount', {
 	  enumerable: true,
@@ -229,7 +224,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _OKShareCount = __webpack_require__(610);
+	var _OKShareCount = __webpack_require__(552);
 	
 	Object.defineProperty(exports, 'OKShareCount', {
 	  enumerable: true,
@@ -238,7 +233,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _RedditShareCount = __webpack_require__(611);
+	var _RedditShareCount = __webpack_require__(553);
 	
 	Object.defineProperty(exports, 'RedditShareCount', {
 	  enumerable: true,
@@ -247,7 +242,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _TumblrShareCount = __webpack_require__(612);
+	var _TumblrShareCount = __webpack_require__(554);
 	
 	Object.defineProperty(exports, 'TumblrShareCount', {
 	  enumerable: true,
@@ -256,7 +251,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _FacebookShareButton = __webpack_require__(613);
+	var _FacebookShareButton = __webpack_require__(555);
 	
 	Object.defineProperty(exports, 'FacebookShareButton', {
 	  enumerable: true,
@@ -265,7 +260,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _GooglePlusShareButton = __webpack_require__(616);
+	var _GooglePlusShareButton = __webpack_require__(558);
 	
 	Object.defineProperty(exports, 'GooglePlusShareButton', {
 	  enumerable: true,
@@ -274,7 +269,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _LinkedinShareButton = __webpack_require__(617);
+	var _LinkedinShareButton = __webpack_require__(559);
 	
 	Object.defineProperty(exports, 'LinkedinShareButton', {
 	  enumerable: true,
@@ -283,7 +278,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _TwitterShareButton = __webpack_require__(618);
+	var _TwitterShareButton = __webpack_require__(560);
 	
 	Object.defineProperty(exports, 'TwitterShareButton', {
 	  enumerable: true,
@@ -292,7 +287,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _PinterestShareButton = __webpack_require__(619);
+	var _PinterestShareButton = __webpack_require__(561);
 	
 	Object.defineProperty(exports, 'PinterestShareButton', {
 	  enumerable: true,
@@ -301,7 +296,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _VKShareButton = __webpack_require__(620);
+	var _VKShareButton = __webpack_require__(562);
 	
 	Object.defineProperty(exports, 'VKShareButton', {
 	  enumerable: true,
@@ -310,7 +305,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _OKShareButton = __webpack_require__(621);
+	var _OKShareButton = __webpack_require__(563);
 	
 	Object.defineProperty(exports, 'OKShareButton', {
 	  enumerable: true,
@@ -319,7 +314,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _TelegramShareButton = __webpack_require__(622);
+	var _TelegramShareButton = __webpack_require__(564);
 	
 	Object.defineProperty(exports, 'TelegramShareButton', {
 	  enumerable: true,
@@ -328,7 +323,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _WhatsappShareButton = __webpack_require__(623);
+	var _WhatsappShareButton = __webpack_require__(565);
 	
 	Object.defineProperty(exports, 'WhatsappShareButton', {
 	  enumerable: true,
@@ -337,7 +332,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _RedditShareButton = __webpack_require__(624);
+	var _RedditShareButton = __webpack_require__(566);
 	
 	Object.defineProperty(exports, 'RedditShareButton', {
 	  enumerable: true,
@@ -346,7 +341,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _EmailShareButton = __webpack_require__(625);
+	var _EmailShareButton = __webpack_require__(567);
 	
 	Object.defineProperty(exports, 'EmailShareButton', {
 	  enumerable: true,
@@ -355,7 +350,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _TumblrShareButton = __webpack_require__(626);
+	var _TumblrShareButton = __webpack_require__(568);
 	
 	Object.defineProperty(exports, 'TumblrShareButton', {
 	  enumerable: true,
@@ -364,7 +359,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _LivejournalShareButton = __webpack_require__(627);
+	var _LivejournalShareButton = __webpack_require__(569);
 	
 	Object.defineProperty(exports, 'LivejournalShareButton', {
 	  enumerable: true,
@@ -373,7 +368,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _MailruShareButton = __webpack_require__(628);
+	var _MailruShareButton = __webpack_require__(570);
 	
 	Object.defineProperty(exports, 'MailruShareButton', {
 	  enumerable: true,
@@ -382,7 +377,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _ViberShareButton = __webpack_require__(629);
+	var _ViberShareButton = __webpack_require__(571);
 	
 	Object.defineProperty(exports, 'ViberShareButton', {
 	  enumerable: true,
@@ -391,7 +386,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _FacebookIcon = __webpack_require__(630);
+	var _FacebookIcon = __webpack_require__(572);
 	
 	Object.defineProperty(exports, 'FacebookIcon', {
 	  enumerable: true,
@@ -400,7 +395,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _TwitterIcon = __webpack_require__(632);
+	var _TwitterIcon = __webpack_require__(574);
 	
 	Object.defineProperty(exports, 'TwitterIcon', {
 	  enumerable: true,
@@ -409,7 +404,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _GooglePlusIcon = __webpack_require__(633);
+	var _GooglePlusIcon = __webpack_require__(575);
 	
 	Object.defineProperty(exports, 'GooglePlusIcon', {
 	  enumerable: true,
@@ -418,7 +413,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _LinkedinIcon = __webpack_require__(634);
+	var _LinkedinIcon = __webpack_require__(576);
 	
 	Object.defineProperty(exports, 'LinkedinIcon', {
 	  enumerable: true,
@@ -427,7 +422,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _PinterestIcon = __webpack_require__(635);
+	var _PinterestIcon = __webpack_require__(577);
 	
 	Object.defineProperty(exports, 'PinterestIcon', {
 	  enumerable: true,
@@ -436,7 +431,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _VKIcon = __webpack_require__(636);
+	var _VKIcon = __webpack_require__(578);
 	
 	Object.defineProperty(exports, 'VKIcon', {
 	  enumerable: true,
@@ -445,7 +440,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _OKIcon = __webpack_require__(637);
+	var _OKIcon = __webpack_require__(579);
 	
 	Object.defineProperty(exports, 'OKIcon', {
 	  enumerable: true,
@@ -454,7 +449,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _TelegramIcon = __webpack_require__(638);
+	var _TelegramIcon = __webpack_require__(580);
 	
 	Object.defineProperty(exports, 'TelegramIcon', {
 	  enumerable: true,
@@ -463,7 +458,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _WhatsappIcon = __webpack_require__(639);
+	var _WhatsappIcon = __webpack_require__(581);
 	
 	Object.defineProperty(exports, 'WhatsappIcon', {
 	  enumerable: true,
@@ -472,7 +467,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _RedditIcon = __webpack_require__(640);
+	var _RedditIcon = __webpack_require__(582);
 	
 	Object.defineProperty(exports, 'RedditIcon', {
 	  enumerable: true,
@@ -481,7 +476,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _TumblrIcon = __webpack_require__(641);
+	var _TumblrIcon = __webpack_require__(583);
 	
 	Object.defineProperty(exports, 'TumblrIcon', {
 	  enumerable: true,
@@ -490,7 +485,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _MailruIcon = __webpack_require__(642);
+	var _MailruIcon = __webpack_require__(584);
 	
 	Object.defineProperty(exports, 'MailruIcon', {
 	  enumerable: true,
@@ -499,7 +494,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _EmailIcon = __webpack_require__(643);
+	var _EmailIcon = __webpack_require__(585);
 	
 	Object.defineProperty(exports, 'EmailIcon', {
 	  enumerable: true,
@@ -508,7 +503,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _LivejournalIcon = __webpack_require__(644);
+	var _LivejournalIcon = __webpack_require__(586);
 	
 	Object.defineProperty(exports, 'LivejournalIcon', {
 	  enumerable: true,
@@ -517,7 +512,7 @@ exports.modules = {
 	  }
 	});
 	
-	var _ViberIcon = __webpack_require__(645);
+	var _ViberIcon = __webpack_require__(587);
 	
 	Object.defineProperty(exports, 'ViberIcon', {
 	  enumerable: true,
@@ -530,7 +525,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 592:
+/***/ 526:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -539,11 +534,11 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _jsonp = __webpack_require__(593);
+	var _jsonp = __webpack_require__(527);
 	
 	var _jsonp2 = _interopRequireDefault(_jsonp);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -561,14 +556,14 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 593:
+/***/ 527:
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
 	 * Module dependencies
 	 */
 	
-	var debug = __webpack_require__(551)('jsonp');
+	var debug = __webpack_require__(528)('jsonp');
 	
 	/**
 	 * Module exports.
@@ -665,7 +660,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 594:
+/***/ 536:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -674,27 +669,27 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _extends2 = __webpack_require__(77);
+	var _extends2 = __webpack_require__(74);
 	
 	var _extends3 = _interopRequireDefault(_extends2);
 	
-	var _getPrototypeOf = __webpack_require__(595);
+	var _getPrototypeOf = __webpack_require__(537);
 	
 	var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 	
-	var _classCallCheck2 = __webpack_require__(121);
+	var _classCallCheck2 = __webpack_require__(117);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(598);
+	var _createClass2 = __webpack_require__(540);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _possibleConstructorReturn2 = __webpack_require__(122);
+	var _possibleConstructorReturn2 = __webpack_require__(118);
 	
 	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 	
-	var _inherits2 = __webpack_require__(156);
+	var _inherits2 = __webpack_require__(153);
 	
 	var _inherits3 = _interopRequireDefault(_inherits2);
 	
@@ -708,7 +703,7 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _classnames = __webpack_require__(349);
+	var _classnames = __webpack_require__(344);
 	
 	var _classnames2 = _interopRequireDefault(_classnames);
 	
@@ -807,30 +802,30 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 595:
+/***/ 537:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(596), __esModule: true };
+	module.exports = { "default": __webpack_require__(538), __esModule: true };
 
 /***/ }),
 
-/***/ 596:
+/***/ 538:
 /***/ (function(module, exports, __webpack_require__) {
 
-	__webpack_require__(597);
-	module.exports = __webpack_require__(83).Object.getPrototypeOf;
+	__webpack_require__(539);
+	module.exports = __webpack_require__(80).Object.getPrototypeOf;
 
 
 /***/ }),
 
-/***/ 597:
+/***/ 539:
 /***/ (function(module, exports, __webpack_require__) {
 
 	// 19.1.2.9 Object.getPrototypeOf(O)
-	var toObject = __webpack_require__(115);
-	var $getPrototypeOf = __webpack_require__(137);
+	var toObject = __webpack_require__(111);
+	var $getPrototypeOf = __webpack_require__(134);
 	
-	__webpack_require__(119)('getPrototypeOf', function () {
+	__webpack_require__(115)('getPrototypeOf', function () {
 	  return function getPrototypeOf(it) {
 	    return $getPrototypeOf(toObject(it));
 	  };
@@ -839,14 +834,14 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 598:
+/***/ 540:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	exports.__esModule = true;
 	
-	var _defineProperty = __webpack_require__(599);
+	var _defineProperty = __webpack_require__(541);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -872,18 +867,18 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 599:
+/***/ 541:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(600), __esModule: true };
+	module.exports = { "default": __webpack_require__(542), __esModule: true };
 
 /***/ }),
 
-/***/ 600:
+/***/ 542:
 /***/ (function(module, exports, __webpack_require__) {
 
-	__webpack_require__(601);
-	var $Object = __webpack_require__(83).Object;
+	__webpack_require__(543);
+	var $Object = __webpack_require__(80).Object;
 	module.exports = function defineProperty(it, key, desc) {
 	  return $Object.defineProperty(it, key, desc);
 	};
@@ -891,17 +886,17 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 601:
+/***/ 543:
 /***/ (function(module, exports, __webpack_require__) {
 
-	var $export = __webpack_require__(81);
+	var $export = __webpack_require__(78);
 	// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-	$export($export.S + $export.F * !__webpack_require__(91), 'Object', { defineProperty: __webpack_require__(87).f });
+	$export($export.S + $export.F * !__webpack_require__(88), 'Object', { defineProperty: __webpack_require__(84).f });
 
 
 /***/ }),
 
-/***/ 602:
+/***/ 544:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -910,15 +905,15 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _stringify = __webpack_require__(603);
+	var _stringify = __webpack_require__(545);
 	
 	var _stringify2 = _interopRequireDefault(_stringify);
 	
-	var _ieDetection = __webpack_require__(605);
+	var _ieDetection = __webpack_require__(547);
 	
 	var _ieDetection2 = _interopRequireDefault(_ieDetection);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -965,17 +960,17 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 603:
+/***/ 545:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(604), __esModule: true };
+	module.exports = { "default": __webpack_require__(546), __esModule: true };
 
 /***/ }),
 
-/***/ 604:
+/***/ 546:
 /***/ (function(module, exports, __webpack_require__) {
 
-	var core = __webpack_require__(83);
+	var core = __webpack_require__(80);
 	var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
 	module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
 	  return $JSON.stringify.apply($JSON, arguments);
@@ -984,7 +979,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 605:
+/***/ 547:
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -1006,7 +1001,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 606:
+/***/ 548:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1015,15 +1010,15 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _jsonp = __webpack_require__(593);
+	var _jsonp = __webpack_require__(527);
 	
 	var _jsonp2 = _interopRequireDefault(_jsonp);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -1044,7 +1039,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 607:
+/***/ 549:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1053,7 +1048,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _keys = __webpack_require__(116);
+	var _keys = __webpack_require__(112);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
@@ -1073,7 +1068,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 608:
+/***/ 550:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1082,15 +1077,15 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _jsonp = __webpack_require__(593);
+	var _jsonp = __webpack_require__(527);
 	
 	var _jsonp2 = _interopRequireDefault(_jsonp);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -1110,7 +1105,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 609:
+/***/ 551:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1119,15 +1114,15 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _jsonp = __webpack_require__(593);
+	var _jsonp = __webpack_require__(527);
 	
 	var _jsonp2 = _interopRequireDefault(_jsonp);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -1161,7 +1156,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 610:
+/***/ 552:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1170,15 +1165,15 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _jsonp = __webpack_require__(593);
+	var _jsonp = __webpack_require__(527);
 	
 	var _jsonp2 = _interopRequireDefault(_jsonp);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -1217,7 +1212,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 611:
+/***/ 553:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1226,11 +1221,11 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _jsonp = __webpack_require__(593);
+	var _jsonp = __webpack_require__(527);
 	
 	var _jsonp2 = _interopRequireDefault(_jsonp);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -1248,7 +1243,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 612:
+/***/ 554:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1257,15 +1252,15 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _jsonp = __webpack_require__(593);
+	var _jsonp = __webpack_require__(527);
 	
 	var _jsonp2 = _interopRequireDefault(_jsonp);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _shareCountFactory = __webpack_require__(594);
+	var _shareCountFactory = __webpack_require__(536);
 	
 	var _shareCountFactory2 = _interopRequireDefault(_shareCountFactory);
 	
@@ -1285,7 +1280,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 613:
+/***/ 555:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1298,15 +1293,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -1356,7 +1351,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 615:
+/***/ 557:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1365,35 +1360,35 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _extends2 = __webpack_require__(77);
+	var _extends2 = __webpack_require__(74);
 	
 	var _extends3 = _interopRequireDefault(_extends2);
 	
-	var _getPrototypeOf = __webpack_require__(595);
+	var _getPrototypeOf = __webpack_require__(537);
 	
 	var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 	
-	var _classCallCheck2 = __webpack_require__(121);
+	var _classCallCheck2 = __webpack_require__(117);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(598);
+	var _createClass2 = __webpack_require__(540);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _possibleConstructorReturn2 = __webpack_require__(122);
+	var _possibleConstructorReturn2 = __webpack_require__(118);
 	
 	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 	
-	var _inherits2 = __webpack_require__(156);
+	var _inherits2 = __webpack_require__(153);
 	
 	var _inherits3 = _interopRequireDefault(_inherits2);
 	
-	var _keys = __webpack_require__(116);
+	var _keys = __webpack_require__(112);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
-	var _typeof2 = __webpack_require__(123);
+	var _typeof2 = __webpack_require__(119);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -1405,11 +1400,11 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _classnames = __webpack_require__(349);
+	var _classnames = __webpack_require__(344);
 	
 	var _classnames2 = _interopRequireDefault(_classnames);
 	
-	var _ieDetection = __webpack_require__(605);
+	var _ieDetection = __webpack_require__(547);
 	
 	var _ieDetection2 = _interopRequireDefault(_ieDetection);
 	
@@ -1640,7 +1635,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 616:
+/***/ 558:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1649,15 +1644,15 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -1678,7 +1673,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 617:
+/***/ 559:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1691,15 +1686,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -1735,7 +1730,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 618:
+/***/ 560:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1748,15 +1743,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -1798,7 +1793,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 619:
+/***/ 561:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1811,15 +1806,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -1856,7 +1851,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 620:
+/***/ 562:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1869,15 +1864,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -1917,7 +1912,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 621:
+/***/ 563:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1930,15 +1925,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -1978,7 +1973,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 622:
+/***/ 564:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1991,15 +1986,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2033,7 +2028,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 623:
+/***/ 565:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2046,15 +2041,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2088,7 +2083,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 624:
+/***/ 566:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2101,15 +2096,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2141,7 +2136,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 625:
+/***/ 567:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2154,11 +2149,11 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2190,7 +2185,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 626:
+/***/ 568:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2203,15 +2198,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2257,7 +2252,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 627:
+/***/ 569:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2270,15 +2265,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2313,7 +2308,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 628:
+/***/ 570:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2326,15 +2321,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2374,7 +2369,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 629:
+/***/ 571:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2387,15 +2382,15 @@ exports.modules = {
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _assert = __webpack_require__(614);
+	var _assert = __webpack_require__(556);
 	
 	var _assert2 = _interopRequireDefault(_assert);
 	
-	var _objectToGetParams = __webpack_require__(607);
+	var _objectToGetParams = __webpack_require__(549);
 	
 	var _objectToGetParams2 = _interopRequireDefault(_objectToGetParams);
 	
-	var _createShareButton = __webpack_require__(615);
+	var _createShareButton = __webpack_require__(557);
 	
 	var _createShareButton2 = _interopRequireDefault(_createShareButton);
 	
@@ -2425,7 +2420,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 630:
+/***/ 572:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2434,7 +2429,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2450,7 +2445,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 631:
+/***/ 573:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2539,7 +2534,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 632:
+/***/ 574:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2548,7 +2543,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2564,7 +2559,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 633:
+/***/ 575:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2573,7 +2568,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2589,7 +2584,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 634:
+/***/ 576:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2598,7 +2593,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2614,7 +2609,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 635:
+/***/ 577:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2623,7 +2618,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2639,7 +2634,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 636:
+/***/ 578:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2648,7 +2643,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2664,7 +2659,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 637:
+/***/ 579:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2673,7 +2668,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2689,7 +2684,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 638:
+/***/ 580:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2698,7 +2693,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2714,7 +2709,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 639:
+/***/ 581:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2723,7 +2718,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2739,7 +2734,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 640:
+/***/ 582:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2748,7 +2743,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2763,7 +2758,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 641:
+/***/ 583:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2772,7 +2767,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2788,7 +2783,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 642:
+/***/ 584:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2797,7 +2792,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2813,7 +2808,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 643:
+/***/ 585:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2822,7 +2817,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2838,7 +2833,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 644:
+/***/ 586:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2847,7 +2842,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	
@@ -2863,7 +2858,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 645:
+/***/ 587:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2872,7 +2867,7 @@ exports.modules = {
 	  value: true
 	});
 	
-	var _iconFactory = __webpack_require__(631);
+	var _iconFactory = __webpack_require__(573);
 	
 	var _iconFactory2 = _interopRequireDefault(_iconFactory);
 	

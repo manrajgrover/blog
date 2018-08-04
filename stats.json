@@ -1,208 +1,72 @@
 {
   "assetsByChunkName": {
-    "path---i-am-so-clever": [
-      "path---i-am-so-clever-44783d490e6996a12944.js",
-      "path---i-am-so-clever-44783d490e6996a12944.js.map"
-    ],
-    "path---imperfection-is-beauty-3": [
-      "path---imperfection-is-beauty-3-d3f33932704568be7708.js",
-      "path---imperfection-is-beauty-3-d3f33932704568be7708.js.map"
-    ],
-    "path---there-are-only-two-3": [
-      "path---there-are-only-two-3-c08e2ddb6b668ecf024e.js",
-      "path---there-are-only-two-3-c08e2ddb6b668ecf024e.js.map"
-    ],
-    "path---be-who-you-are-2": [
-      "path---be-who-you-are-2-dcc2179dbfc2f1732af2.js",
-      "path---be-who-you-are-2-dcc2179dbfc2f1732af2.js.map"
-    ],
-    "path---customize-personal-blog-starter": [
-      "path---customize-personal-blog-starter-8126244b1046d47cfb86.js",
-      "path---customize-personal-blog-starter-8126244b1046d47cfb86.js.map"
-    ],
-    "path---people-will-forget-3": [
-      "path---people-will-forget-3-a5f5eec717e5707367e3.js",
-      "path---people-will-forget-3-a5f5eec717e5707367e3.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-aa9570313651ef926b5a.js",
-      "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
-    ],
-    "path---there-are-only-two": [
-      "path---there-are-only-two-9b735a99c34823e0f294.js",
-      "path---there-are-only-two-9b735a99c34823e0f294.js.map"
-    ],
-    "path---be-who-you-are": [
-      "path---be-who-you-are-bf81731c785ac3446136.js",
-      "path---be-who-you-are-bf81731c785ac3446136.js.map"
+      "component---src-pages-index-js-e7de107382324b0d6b44.js",
+      "component---src-pages-index-js-e7de107382324b0d6b44.js.map"
     ],
     "path---": [
-      "path----a7fa63743e27e02dbfb3.js",
-      "path----a7fa63743e27e02dbfb3.js.map"
-    ],
-    "path---i-may-not-have-gone": [
-      "path---i-may-not-have-gone-66adc5bafa8e88b2ffd9.js",
-      "path---i-may-not-have-gone-66adc5bafa8e88b2ffd9.js.map"
-    ],
-    "path---people-will-forget": [
-      "path---people-will-forget-44bbb31b02b3e5f5d2e1.js",
-      "path---people-will-forget-44bbb31b02b3e5f5d2e1.js.map"
+      "path----51be72df89c029aad244.js",
+      "path----51be72df89c029aad244.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-f67d4a6410edd0847e47.js",
-      "component---src-pages-contact-js-f67d4a6410edd0847e47.js.map"
-    ],
-    "path---like-nonsense": [
-      "path---like-nonsense-57f5da59ef7c8ae770a1.js",
-      "path---like-nonsense-57f5da59ef7c8ae770a1.js.map"
-    ],
-    "path---like-nonsense-2": [
-      "path---like-nonsense-2-d8d51e44336560075155.js",
-      "path---like-nonsense-2-d8d51e44336560075155.js.map"
-    ],
-    "path---people-will-forget-2": [
-      "path---people-will-forget-2-af54353480e72acef9d4.js",
-      "path---people-will-forget-2-af54353480e72acef9d4.js.map"
-    ],
-    "path---you-only-live-once-2": [
-      "path---you-only-live-once-2-4174b0d28234298fe769.js",
-      "path---you-only-live-once-2-4174b0d28234298fe769.js.map"
-    ],
-    "path---there-are-only-two-2": [
-      "path---there-are-only-two-2-f0eceb2ac5ff0165e0c9.js",
-      "path---there-are-only-two-2-f0eceb2ac5ff0165e0c9.js.map"
+      "component---src-pages-contact-js-38e9a864c1d97ba9420c.js",
+      "component---src-pages-contact-js-38e9a864c1d97ba9420c.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
-    "path---two-things-are-infinite": [
-      "path---two-things-are-infinite-c458feff516bc932acf0.js",
-      "path---two-things-are-infinite-c458feff516bc932acf0.js.map"
-    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-f8071a8ac399b5335add.js",
-      "component---src-layouts-index-js-f8071a8ac399b5335add.js.map"
-    ],
-    "path---two-things-are-infinite-2": [
-      "path---two-things-are-infinite-2-f63ef3f723214c9a248a.js",
-      "path---two-things-are-infinite-2-f63ef3f723214c9a248a.js.map"
-    ],
-    "path---install-personal-blog-starter": [
-      "path---install-personal-blog-starter-fb4798d6bce4e4060d5c.js",
-      "path---install-personal-blog-starter-fb4798d6bce4e4060d5c.js.map"
-    ],
-    "path---be-who-you-are-3": [
-      "path---be-who-you-are-3-e01b0084eb05601175f1.js",
-      "path---be-who-you-are-3-e01b0084eb05601175f1.js.map"
-    ],
-    "path---good-friends-3": [
-      "path---good-friends-3-fafd412a9cf395c23bf2.js",
-      "path---good-friends-3-fafd412a9cf395c23bf2.js.map"
+      "component---src-layouts-index-js-37dd04e115d74b50c15c.js",
+      "component---src-layouts-index-js-37dd04e115d74b50c15c.js.map"
     ],
     "path---index": [
-      "path---index-206ac74de0d3aab26f03.js",
-      "path---index-206ac74de0d3aab26f03.js.map"
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-search-js": [
-      "component---src-pages-search-js-7e531c988d07ec786495.js",
-      "component---src-pages-search-js-7e531c988d07ec786495.js.map"
+      "component---src-pages-search-js-916d963ca2352bfd7fae.js",
+      "component---src-pages-search-js-916d963ca2352bfd7fae.js.map"
     ],
-    "path---you-only-live-once-3": [
-      "path---you-only-live-once-3-c50c7db7b79674d65701.js",
-      "path---you-only-live-once-3-c50c7db7b79674d65701.js.map"
-    ],
-    "path---i-have-not-failed": [
-      "path---i-have-not-failed-be78ed3611409179d016.js",
-      "path---i-have-not-failed-be78ed3611409179d016.js.map"
+    "path---hello-world": [
+      "path---hello-world-a3eebbaa9b533459002a.js",
+      "path---hello-world-a3eebbaa9b533459002a.js.map"
     ],
     "commons": [
-      "commons-67fdb66cd90db0868385.js",
+      "commons-efa9510b7c8a15486d23.js",
       "build-js-styles.css",
-      "commons-67fdb66cd90db0868385.js.map",
+      "commons-efa9510b7c8a15486d23.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---success": [
-      "path---success-feac4ed4f6f45cf5c225.js",
-      "path---success-feac4ed4f6f45cf5c225.js.map"
     ],
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---imperfection-is-beauty-2": [
-      "path---imperfection-is-beauty-2-a394c1a412c328e57331.js",
-      "path---imperfection-is-beauty-2-a394c1a412c328e57331.js.map"
-    ],
-    "path---good-friends-2": [
-      "path---good-friends-2-aa23eb1c99c6e8921b06.js",
-      "path---good-friends-2-aa23eb1c99c6e8921b06.js.map"
-    ],
     "component---src-templates-post-template-js": [
-      "component---src-templates-post-template-js-da4b2671b08b4bf5cd03.js",
-      "component---src-templates-post-template-js-da4b2671b08b4bf5cd03.js.map"
-    ],
-    "path---i-am-so-clever-3": [
-      "path---i-am-so-clever-3-5dc6715181578ad9377b.js",
-      "path---i-am-so-clever-3-5dc6715181578ad9377b.js.map"
-    ],
-    "path---you-only-live-once": [
-      "path---you-only-live-once-22234d39d747c9dee58b.js",
-      "path---you-only-live-once-22234d39d747c9dee58b.js.map"
-    ],
-    "path---setup-algolia-account": [
-      "path---setup-algolia-account-e3efebeb97c5d45ebd30.js",
-      "path---setup-algolia-account-e3efebeb97c5d45ebd30.js.map"
+      "component---src-templates-post-template-js-2bf3abf1c2de3c3a2c00.js",
+      "component---src-templates-post-template-js-2bf3abf1c2de3c3a2c00.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---two-things-are-infinite-3": [
-      "path---two-things-are-infinite-3-fdfec79ffd94e86ddaea.js",
-      "path---two-things-are-infinite-3-fdfec79ffd94e86ddaea.js.map"
-    ],
-    "path---starters": [
-      "path---starters-25130eb4eb832006c7dd.js",
-      "path---starters-25130eb4eb832006c7dd.js.map"
-    ],
     "app": [
-      "app-2f1fa748fad68b422df1.js",
+      "app-4abc1410dfccf9056d48.js",
       "build-js-styles.css",
-      "app-2f1fa748fad68b422df1.js.map",
+      "app-4abc1410dfccf9056d48.js.map",
       "build-js-styles.css.map"
     ],
-    "path---i-may-not-have-gone-2": [
-      "path---i-may-not-have-gone-2-21b7f8e76230d267baa2.js",
-      "path---i-may-not-have-gone-2-21b7f8e76230d267baa2.js.map"
-    ],
     "component---src-templates-page-template-js": [
-      "component---src-templates-page-template-js-e0434750f574a9276ef2.js",
-      "component---src-templates-page-template-js-e0434750f574a9276ef2.js.map"
-    ],
-    "path---good-friends": [
-      "path---good-friends-4a1c8efe2ba1bb45fe39.js",
-      "path---good-friends-4a1c8efe2ba1bb45fe39.js.map"
-    ],
-    "path---i-am-so-clever-2": [
-      "path---i-am-so-clever-2-7e21700b99d47ab26d82.js",
-      "path---i-am-so-clever-2-7e21700b99d47ab26d82.js.map"
+      "component---src-templates-page-template-js-6f74dfdcdb198cb143f6.js",
+      "component---src-templates-page-template-js-6f74dfdcdb198cb143f6.js.map"
     ],
     "path---search": [
       "path---search-199019808f7c60dc6621.js",
       "path---search-199019808f7c60dc6621.js.map"
     ],
-    "path---i-have-not-failed-2": [
-      "path---i-have-not-failed-2-12f37df472940d22608b.js",
-      "path---i-have-not-failed-2-12f37df472940d22608b.js.map"
-    ],
     "path---about": [
-      "path---about-b9ee8245454f8368a613.js",
-      "path---about-b9ee8245454f8368a613.js.map"
-    ],
-    "path---imperfection-is-beauty": [
-      "path---imperfection-is-beauty-5d0af2e3dcad996d92d4.js",
-      "path---imperfection-is-beauty-5d0af2e3dcad996d92d4.js.map"
+      "path---about-c11885580bc20a012a1f.js",
+      "path---about-c11885580bc20a012a1f.js.map"
     ]
   }
 }

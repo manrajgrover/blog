@@ -428,7 +428,7 @@ exports.modules = {
 	        _gatsbyLink2.default,
 	        {
 	          key: fields.slug,
-	          to: (0, _gatsbyLink.withPrefix)(fields.slug),
+	          to: fields.slug,
 	          onClick: linkOnClick,
 	          className: classes.link,
 	          "data-shape": "closed"
@@ -438,12 +438,7 @@ exports.modules = {
 	    }),
 	    _react2.default.createElement(
 	      _gatsbyLink2.default,
-	      {
-	        to: (0, _gatsbyLink.withPrefix)("/contact/"),
-	        onClick: linkOnClick,
-	        className: classes.link,
-	        "data-shape": "closed"
-	      },
+	      { to: "/contact/", onClick: linkOnClick, className: classes.link, "data-shape": "closed" },
 	      "Contact"
 	    )
 	  );
@@ -606,12 +601,7 @@ exports.modules = {
 	    { className: classes.header },
 	    _react2.default.createElement(
 	      _gatsbyLink2.default,
-	      {
-	        className: classes.avatarLink,
-	        onClick: avatarOnClick,
-	        to: (0, _gatsbyLink.withPrefix)("/"),
-	        title: "back to Home page"
-	      },
+	      { className: classes.avatarLink, onClick: avatarOnClick, to: "/", title: "back to Home page" },
 	      _react2.default.createElement(
 	        "div",
 	        { className: classes.avatar },

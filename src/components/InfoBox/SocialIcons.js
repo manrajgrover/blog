@@ -7,12 +7,19 @@ import config from "../../../content/meta/config";
 import GithubIcon from "!svg-react-loader!../../images/svg-icons/github.svg?name=GithubIcon";
 import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?name=FacebookIcon";
 import TwitterIcon from "!svg-react-loader!../../images/svg-icons/twitter.svg?name=TwitterIcon";
+import LinkedinIcon from "!svg-react-loader!../../images/svg-icons/linkedin.svg?name=LinkedinIcon";
 
 const styles = theme => ({
   social: {
     display: "flex",
     justifyContent: "center",
     flexWrap: "wrap"
+  },
+  svg: {
+    width: "40px",
+    height: "40px",
+    fill: theme.info.colors.socialIcons,
+    transition: "all .5s"
   },
   link: {
     display: "inline-block",
@@ -31,13 +38,12 @@ const styles = theme => ({
       "& svg": {
         fill: "#3c5898"
       }
+    },
+    "&[title='linkedin']:hover": {
+      "& svg": {
+        fill: "#007fb1"
+      }
     }
-  },
-  svg: {
-    width: "40px",
-    height: "40px",
-    fill: theme.info.colors.socialIcons,
-    transition: "all .5s"
   }
 });
 
@@ -47,7 +53,8 @@ const Socialcons = props => {
   const icons = {
     twitter: TwitterIcon,
     facebook: FacebookIcon,
-    github: GithubIcon
+    github: GithubIcon,
+    linkedin: LinkedinIcon
   };
 
   return (

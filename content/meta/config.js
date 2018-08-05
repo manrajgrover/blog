@@ -22,7 +22,7 @@ module.exports = {
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // disqus
-  disqusShortName: "manraj-singh-blog",
+  disqusShortName: "https-manrajsingh-in-blog",
   // contact
   contactEmail: "manrajsinghgrover@gmail.com",
   // social

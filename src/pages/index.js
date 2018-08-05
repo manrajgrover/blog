@@ -27,7 +27,7 @@ class Index extends React.Component {
 }
 
 Index.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object,
   navigatorPosition: PropTypes.string.isRequired,
   setNavigatorPosition: PropTypes.func.isRequired,
   isWideScreen: PropTypes.bool.isRequired

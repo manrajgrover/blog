@@ -47,15 +47,15 @@ webpackJsonp([1],{
 
 	var _SocialIcons2 = _interopRequireDefault(_SocialIcons);
 
-	var _InfoMenu = __webpack_require__(501);
+	var _InfoMenu = __webpack_require__(502);
 
 	var _InfoMenu2 = _interopRequireDefault(_InfoMenu);
 
-	var _InfoHeader = __webpack_require__(502);
+	var _InfoHeader = __webpack_require__(503);
 
 	var _InfoHeader2 = _interopRequireDefault(_InfoHeader);
 
-	var _InfoText = __webpack_require__(504);
+	var _InfoText = __webpack_require__(505);
 
 	var _InfoText2 = _interopRequireDefault(_InfoText);
 
@@ -71,7 +71,7 @@ webpackJsonp([1],{
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	__webpack_require__(505);
+	__webpack_require__(506);
 
 	var styles = function styles(theme) {
 	  var _infoBox;
@@ -235,6 +235,10 @@ webpackJsonp([1],{
 
 	var _twitter2 = _interopRequireDefault(_twitter);
 
+	var _linkedin = __webpack_require__(501);
+
+	var _linkedin2 = _interopRequireDefault(_linkedin);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var styles = function styles(theme) {
@@ -243,6 +247,12 @@ webpackJsonp([1],{
 	      display: "flex",
 	      justifyContent: "center",
 	      flexWrap: "wrap"
+	    },
+	    svg: {
+	      width: "40px",
+	      height: "40px",
+	      fill: theme.info.colors.socialIcons,
+	      transition: "all .5s"
 	    },
 	    link: {
 	      display: "inline-block",
@@ -261,13 +271,12 @@ webpackJsonp([1],{
 	        "& svg": {
 	          fill: "#3c5898"
 	        }
+	      },
+	      "&[title='linkedin']:hover": {
+	        "& svg": {
+	          fill: "#007fb1"
+	        }
 	      }
-	    },
-	    svg: {
-	      width: "40px",
-	      height: "40px",
-	      fill: theme.info.colors.socialIcons,
-	      transition: "all .5s"
 	    }
 	  };
 	};
@@ -279,7 +288,8 @@ webpackJsonp([1],{
 	  var icons = {
 	    twitter: _twitter2.default,
 	    facebook: _facebook2.default,
-	    github: _github2.default
+	    github: _github2.default,
+	    linkedin: _linkedin2.default
 	  };
 
 	  return _react2.default.createElement(
@@ -375,6 +385,26 @@ webpackJsonp([1],{
 /***/ 501:
 /***/ (function(module, exports, __webpack_require__) {
 
+	var React = __webpack_require__(1);
+
+	function LinkedinIcon (props) {
+	    return React.createElement("svg",props,React.createElement("path",{"d":"M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683\n        C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z\n        M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615\n        c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915\n        s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z"}));
+	}
+
+	LinkedinIcon.displayName = "LinkedinIcon";
+
+	LinkedinIcon.defaultProps = {"viewBox":"0 35 512 512"};
+
+	module.exports = LinkedinIcon;
+
+	LinkedinIcon.default = LinkedinIcon;
+
+
+/***/ }),
+
+/***/ 502:
+/***/ (function(module, exports, __webpack_require__) {
+
 	"use strict";
 
 	exports.__esModule = true;
@@ -464,7 +494,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 502:
+/***/ 503:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -491,7 +521,7 @@ webpackJsonp([1],{
 
 	var _IconButton2 = _interopRequireDefault(_IconButton);
 
-	var _ExpandMore = __webpack_require__(503);
+	var _ExpandMore = __webpack_require__(504);
 
 	var _ExpandMore2 = _interopRequireDefault(_ExpandMore);
 
@@ -651,7 +681,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 503:
+/***/ 504:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -675,7 +705,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 504:
+/***/ 505:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";

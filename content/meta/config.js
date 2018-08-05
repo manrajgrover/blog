@@ -6,7 +6,7 @@ module.exports = {
   siteDescription: "Machine Learning, Research, Open Source and more",
   siteUrl: "https://manrajsingh.in",
   pathPrefix: "/blog",
-  siteImage: "preview.jpg",
+  siteImage: "avatar.jpg",
   siteLanguage: "en",
   // author
   authorName: "Manraj Singh",

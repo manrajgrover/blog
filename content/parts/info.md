@@ -2,4 +2,4 @@
 title: info
 ---
 
-I am a front-end web developer. I used to be a web designer also, but now I concentrate on the code.
+Open Source enthusiast and a budding researcher. Currently helping build [@TensorFlowJS](https://github.com/tensorflow/tfjs) and its ecosystem.

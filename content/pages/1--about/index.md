@@ -2,36 +2,12 @@
 title: About
 ---
 
-This is a demo site of the [PersonalBlog](https://github.com/greglobinski/gatsby-starter-personal-blog) GatsbyJS starter.
+I'm a Software Engineer and am currently working with the Data Science team at [Practo](https://practo.com/) solving Health Care problems. Working with the team got me interested in Machine Learning and have been teaching myself about its practical and research aspects ever since.
 
-The starter is a ready to use, easy to customize 'like theme' starter. It has everything what blog should have and some more.
+I've been contributing to Open Source for close to 4 years now and been actively involved with organizations such as [TensorFlow](https://github.com/tensorflow), [DuckDuckGo](https://duckduckhack.com/u/manrajgrover/), and [Mozilla](https://mozillians.org/en-US/u/manrajsingh/) and currently heavily involved in building [TensorFlowJS](https://github.com/tensorflow/tfjs) and it's ecosystem. Over the past few years, some of my side project like [halo](https://github.com/manrajgrover/halo), [SingleDivProject](https://github.com/manrajgrover/SingleDivProject), [football-cli](https://github.com/manrajgrover/football-cli) and [organize-cli](https://github.com/manrajgrover/organize-cli) attracted great attention which got them on Github Trending list. I've also mentored students during [Google Code-In, 2017](https://codein.withgoogle.com/archive/2017/) and [Rails Girls Summer of Code, 2018](https://railsgirlssummerofcode.org/).
 
-### Standard features:
+I've studied [Instrumentation and Control Engineering](https://en.wikipedia.org/wiki/Instrumentation_and_control_engineering) at [Netaji Subhas Institute of Technology, University of Delhi](http://www.nsit.ac.in/). During my studies, alongside Open Source Code contributions, I was actively involved in Mozilla's regional community as a Core Contributor and was invited to attend Mozilla Leadership Summit where I got the opportunity to understand Mozilla's vision, shape strategy to grow the community and hone my leadership skills. Leading IEEE college chapter holding general secretary helped me experience and learn from the dynamics of planning, budgeting, and organizing regional and college events.
 
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (post list filtering)
-* Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* **PWA** (manifes.json, offline support, favicons)
-* Google **Analytics**
-* **Favicons** generator (node script)
-* **Material UI** (@next)
+Have a look at my [resume](https://manrajsingh.in/resume/Manraj%20Singh%20Grover.pdf) for more information.
 
-### Advanced features:
-
-* Easy customizable base **styles** via `theme` object (fonts, colors, sizes)
-* **Components** lazy loading (social sharing, comments)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Custom webpack `CommonsChunkPlugin` settings
-* Webpack `BundleAnalyzerPlugin`
-* Contact **form validation** (react-material-ui-form-validator)
-
-## Instructions
-
-For detailed instructions go to [Front-end web development with Greg](https://dev.greglobinski.com/gatsby-starter-personal-blog/).
+Through this blog, I wish to share my learnings and experiences and explain them in a more pragmatic manner.

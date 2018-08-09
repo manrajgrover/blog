@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "cleanup": "rm -f ./.cache ./public",
+    "cleanup": "rm -rf ./.cache ./public",
     "publish": "gh-pages -d public",
     "deploy": "npm run cleanup && gatsby build --prefix-paths && npm run publish",
     "develop-host": "gatsby develop --host 192.168.0.112",

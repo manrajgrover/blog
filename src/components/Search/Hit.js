@@ -18,6 +18,12 @@ const styles = theme => ({
       left: ".1em",
       color: theme.base.colors.accent
     },
+    "&::active": {
+      color: "inherit"
+    },
+    "&::visited": {
+      color: "inherit"
+    },
     "& span": {
       fontWeight: 300,
       display: "block",

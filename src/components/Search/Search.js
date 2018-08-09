@@ -60,6 +60,9 @@ const styles = theme => ({
       "& a": {
         "&:hover": {
           color: theme.base.colors.accent
+        },
+        "&::visited": {
+          color: 'inherit'
         }
       },
       "&.ais-Pagination-item--firstPage, &.ais-Pagination-item--previousPage, &.ais-Pagination-item--nextPage": {

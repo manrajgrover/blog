@@ -15,6 +15,13 @@ const styles = theme => ({
     },
     "& p:last-child": {
       marginBottom: 0
+    },
+    "& a": {
+      fontWeight: 800,
+      color: theme.base.colors.link
+    },
+    "& a:hover": {
+      color: theme.base.colors.linkHover
     }
   }
 });

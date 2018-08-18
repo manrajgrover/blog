@@ -15,13 +15,14 @@ const Seo = props => {
 
   const title = postTitle ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
   const description = postDescription ? postDescription : config.siteDescription;
+
   let image = postCover ? postCover.childImageSharp.resize.src : avatar;
+  image = urljoin(config.siteUrl, image);
 
   let url;
 
   if (postSlug) {
     url = urljoin(config.siteUrl, config.pathPrefix, postSlug);
-    image = urljoin(config.siteUrl, config.pathPrefix, image);
   } else {
     url = urljoin(config.siteUrl, config.pathPrefix);
   }

@@ -16,7 +16,7 @@ const Seo = props => {
   const title = postTitle ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
   const description = postDescription ? postDescription : config.siteDescription;
 
-  let image = postCover ? postCover.childImageSharp.resize.src : avatar;
+  let image = postCover ? postCover.childImageSharp.responsiveSizes.src : avatar;
   image = urljoin(config.siteUrl, image);
 
   let url;

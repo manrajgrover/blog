@@ -76,7 +76,7 @@ export const postQuery = graphql`
         subTitle
         cover {
           childImageSharp {
-            resize(width: 300) {
+            responsiveSizes {
               src
             }
           }

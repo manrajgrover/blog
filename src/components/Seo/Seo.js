@@ -4,6 +4,8 @@ import Helmet from "react-helmet";
 import config from "../../../content/meta/config";
 import urljoin from "url-join";
 
+import avatar from "../../images/jpg/avatar.jpg";
+
 const Seo = props => {
   const { data } = props;
   const postTitle = ((data || {}).frontmatter || {}).title;
@@ -13,12 +15,13 @@ const Seo = props => {
 
   const title = postTitle ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
   const description = postDescription ? postDescription : config.siteDescription;
-  const image = postCover ? postCover.childImageSharp.resize.src : config.siteImage;
+  let image = postCover ? postCover.childImageSharp.resize.src : avatar;
 
   let url;
 
   if (postSlug) {
     url = urljoin(config.siteUrl, config.pathPrefix, postSlug);
+    image = urljoin(config.siteUrl, config.pathPrefix, image);
   } else {
     url = urljoin(config.siteUrl, config.pathPrefix);
   }

@@ -2,7 +2,7 @@
 title: About
 ---
 
-I'm a Software Engineer and am currently working with the Data Science team at [Practo](https://practo.com/) solving Health Care problems. Working with the team got me interested in Machine Learning and have been teaching myself about its practical and research aspects ever since.
+I'm a Software Engineer and am currently working with the Platform team at [Practo](https://practo.com/) solving healthcare related problems. Previously, I was working with the datascience team which got me interested in Machine Learning and have been teaching myself about its practical and research aspects ever since.
 
 I've been contributing to Open Source for close to 4 years now and been actively involved with organizations such as [TensorFlow](https://github.com/tensorflow), [DuckDuckGo](https://duckduckhack.com/u/manrajgrover/), and [Mozilla](https://mozillians.org/en-US/u/manrajsingh/) and currently heavily involved in building [TensorFlowJS](https://github.com/tensorflow/tfjs) and it's ecosystem. Over the past few years, some of my side project like [halo](https://github.com/manrajgrover/halo), [SingleDivProject](https://github.com/manrajgrover/SingleDivProject), [football-cli](https://github.com/manrajgrover/football-cli) and [organize-cli](https://github.com/manrajgrover/organize-cli) attracted great attention which got them on Github Trending list. I've also mentored students during [Google Code-In, 2017](https://codein.withgoogle.com/archive/2017/) and [Rails Girls Summer of Code, 2018](https://railsgirlssummerofcode.org/).
 

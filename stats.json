@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
+    "path---why-im-ending-commit-a-day": [
+      "path---why-im-ending-commit-a-day-7e788b0720b3d33030f5.js",
+      "path---why-im-ending-commit-a-day-7e788b0720b3d33030f5.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-e7b2f98d082166b63770.js",
       "component---src-pages-index-js-e7b2f98d082166b63770.js.map"
     ],
     "path---": [
-      "path----4c2f987b1284d6bf93e7.js",
-      "path----4c2f987b1284d6bf93e7.js.map"
+      "path----f72cb60f6b6d45a8ebb1.js",
+      "path----f72cb60f6b6d45a8ebb1.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-38e9a864c1d97ba9420c.js",
@@ -17,8 +21,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8f503e6407c1bc9e2316.js",
-      "component---src-layouts-index-js-8f503e6407c1bc9e2316.js.map"
+      "component---src-layouts-index-js-5372d92519f93dc8fbb5.js",
+      "component---src-layouts-index-js-5372d92519f93dc8fbb5.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -27,10 +31,6 @@
     "component---src-pages-search-js": [
       "component---src-pages-search-js-b67ffaa13ef7df23d215.js",
       "component---src-pages-search-js-b67ffaa13ef7df23d215.js.map"
-    ],
-    "path---hello-world": [
-      "path---hello-world-a954c01d3cd656ad7ee2.js",
-      "path---hello-world-a954c01d3cd656ad7ee2.js.map"
     ],
     "commons": [
       "commons-e28225b0eff2725cf685.js",
@@ -51,9 +51,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-29ef8964bba45ad92785.js",
+      "app-42dd1c41a3f152e26818.js",
       "build-js-styles.css",
-      "app-29ef8964bba45ad92785.js.map",
+      "app-42dd1c41a3f152e26818.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [

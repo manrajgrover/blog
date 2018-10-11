@@ -1,2 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Machine Learning, Research, Open Source and more]]></title><description><![CDATA[Machine Learning, Research, Open Source and more]]></description><link>https://manrajsingh.in</link><generator>RSS for Node</generator><lastBuildDate>Thu, 13 Sep 2018 15:15:34 GMT</lastBuildDate><item><title><![CDATA[Hello world!]]></title><description><![CDATA[Hi, I’m Manraj Singh Grover. But you can call me Manraj Singh to keep it short. I’m a Software Engineer working with the Data Science team…]]></description><link>https://manrajsingh.in/hello-world/</link><guid isPermaLink="false">https://manrajsingh.in/hello-world/</guid><content:encoded>&lt;p&gt;Hi, I’m Manraj Singh Grover. But you can call me Manraj Singh to keep it short.&lt;/p&gt;
-&lt;p&gt;I’m a Software Engineer working with the Data Science team at &lt;a href=&quot;https://www.practo.com/&quot;&gt;Practo&lt;/a&gt;, Bangalore. &lt;/p&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Machine Learning, Research, Open Source and more]]></title><description><![CDATA[Machine Learning, Research, Open Source and more]]></description><link>https://manrajsingh.in</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Oct 2018 21:26:32 GMT</lastBuildDate><item><title><![CDATA[Why I'm ending my 3 year Open Source contribution spree]]></title><description><![CDATA[The day is here. I’ve finally decided to end something I started  3 years back .  1097 days  of continuous learning, developing…]]></description><link>https://manrajsingh.in/why-im-ending-commit-a-day/</link><guid isPermaLink="false">https://manrajsingh.in/why-im-ending-commit-a-day/</guid><content:encoded>&lt;p&gt;The day is here. I’ve finally decided to end something I started &lt;strong&gt;3 years back&lt;/strong&gt;. &lt;strong&gt;1097 days&lt;/strong&gt; of continuous learning, developing, collaborating and growing. Something I will remember for the rest of my life. I got to author some good personal projects and work with and contribute to organizations like &lt;a href=&quot;http://duckduckhack.com/u/manrajgrover/&quot;&gt;DuckDuckGo&lt;/a&gt;, &lt;a href=&quot;http://mifos.org/&quot;&gt;OpenMF&lt;/a&gt;, &lt;a href=&quot;https://www.mozilla.org/en-US/&quot;&gt;Mozilla&lt;/a&gt;, and yes, &lt;a href=&quot;https://js.tensorflow.org&quot;&gt;TensorFlow&lt;/a&gt;. And it did take a good amount of dedication and sacrifices I can tell you. In this post, I’ll share the motivation behind this, challenges faced during this journey, the reason for ending it and everything in between. I’ll cover my learnings in a separate post which will also double up as my guide to open source.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/contributions-821deb7d5101b789d1c86b09a04def75-09892.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 86.23242042931163%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADsUlEQVQ4y3WU6U8bSRDF/cfv12ilaJW9EKdNzJEQEpSEkBARdgMJLGAC+MDX2DNjz33P+MD8thjth5WyO9JTtaqnq7pfvapCEATouobt2BjGENd1ePD5vsdgoGPZFnDP/f2MmeA+x32O2WzGOBsxjDVaRoe7yR2FKIoxDRvbchhoQwI/IhRkyYgkSnP7f99D0Ol0SjyO8JMgT1BIRwEDt4XhKwzdtqw7tM0GZqwyDPoYYt1Up2eLf9hEkX0z6qP4XZJR+l2Sgh7VOB2UOBps8EldpWJuctAr8rFT5M9+ieWrJ+y3l6gMNimePOZje5kvgzJrtV9xUjsPMvsXDYWaW2G/P8eR9pT9zgLng6e8Vxb4oCzxh77C28687K1woCyzeP4jx1qJPWWezdvf8TL3+4BpFmAGPfpGG83qYMszFYGbGWRTh3hiE40t1EgVKrpogYY/Mrmbxf/JayFMbKygieW36Tt1OmYV1bnFz1RurRpNsyZ8dlHtJrZYP5WE7i0XSgUv7YqvhR21sOI2k1lCwUzqHOuLVO3nXJhlvsqTP6srnA7LuT3RS0KJPL+zzFetyJW1zpH495oL+bpirnNhlDk3NhjfxRR6UpST4Sp155X88FwCbUiCNRrOy5zXg25RDj2j6mznh67tLfaVIjv1Rc6lgFX7RX6Zqv2S6Wz08OQAwxNh+0OGjorl6bhCw1SyGbHJIDAY3UWMptE/NhQZObk/k/VUfGOxE9nPOYxHNrr3Dd2voblXaN41ygPca8KsxSCsc6n9xVnvhBuzQtWqUBP4aQszaXDrXFK3xS/Ipj4FJ60LB0ucCQ9XVplrQcVc5bC7KFwt8qE7z/L1Y8o3T3j0+Qee1X7mTfM3+W+N0pdHrN/8xDc5czZckZvfUvCyjkTfEg7f0nRf0/Rec2lsUzV2OOivi+i3eNFYYaW+wKvqEutnc8Lltoh7i/fNEoe9DVreG+F8Byttiw7TGMvVMb0BhqUSxi6htGOQeKK1hNEkJkoD6QqXdBLiRI60nC+iDoS/TJ6ZCq8p40kispnKcMikscOINJmIdel5TSIJNsruSJKxBPOI05BEgsaxHB5NSNME1etSGZ4IjugHFVruKYk0QiHOYlw/FGG7uIEvhB/TsI7ytelJNd2+FEuRwrXE6nhBKKrocaLtstv9RaRT4p1wetibk+5qUJjIDItkTPkyxuxQQw9k0oRKPlWswMUK+5LkTG7UJooDmUAirVCloh7zqbspFd6j7r6TpthlIlL7G/qW1NDDeu7GAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;3 years of Open Source&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/contributions-821deb7d5101b789d1c86b09a04def75-48538.png&quot;
+        srcset=&quot;/blog/static/contributions-821deb7d5101b789d1c86b09a04def75-bed0f.png 200w,
+/blog/static/contributions-821deb7d5101b789d1c86b09a04def75-5fd34.png 400w,
+/blog/static/contributions-821deb7d5101b789d1c86b09a04def75-48538.png 800w,
+/blog/static/contributions-821deb7d5101b789d1c86b09a04def75-b70ec.png 1200w,
+/blog/static/contributions-821deb7d5101b789d1c86b09a04def75-09892.png 1351w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;i&gt;Generated using https://github-contributions.now.sh/ by &lt;a href=&quot;https://github.com/sallar&quot; target=&quot;_blank&quot;&gt;sallar&lt;/a&gt;&lt;/i&gt;
+&lt;/p&gt;
+&lt;h2&gt;Wait, what? When did it even began?&lt;/h2&gt;
+&lt;p&gt;It was fall of 2015 and my final year of college had just begun. I already had an offer in a company (you know, one less thing to worry about) and had some time at my hand which I wanted to utilize well. I had few projects that I had started way back but never found time to complete and release them. Also, I was not happy with the quality of the code I used to write. I didn’t have anyone back then looking at my code and telling me how I can improve myself. Finally, I wanted to understand technologies in depth and build things using them.&lt;/p&gt;
+&lt;p&gt;So I decided to complete what I had started and also learn something new every day. I needed some way to track progress and Github served to be the right platform. I started working on the projects, trying to make time for it every day but just as I thought, the initial spree didn’t last long and it broke in 2 weeks. I didn’t give up and planned to restart it. This time, with better management in mind.&lt;/p&gt;
+&lt;p&gt;Initially, I worked on random projects that I had started for learning new things and soon moved towards building concrete things. Those were still the projects that no one would use but they did something and I learned things building them. These projects helped set up a good base for things I wanted to build in the future. I took those learnings and applied them while reviving the abandoned projects. I made them work using the best practices I knew.&lt;/p&gt;
+&lt;p&gt;Soon, I stopped keeping track of it. It became a habit to think about what I would do today and the resources I would need to refer. I would plan my day well in advance and prioritize things accordingly. I learned the skill of time hacking and I still reap the benefits of it.
+I never publicized or told anyone about what I was doing and why for a couple of reasons. I didn’t want any publicity with this regard. And secondly, it was a personal experiment which may or may not help anyone. And I still didn’t have enough positive results to recommend someone something like this.&lt;/p&gt;
+&lt;p&gt;I did, however, have some people laugh and mock me who saw my Github profile. But I didn’t care much. For what I knew, I had nothing to lose and everything to gain. The only investment was time which I didn’t want to spend watching a famous series. I like how &lt;a href=&quot;https://twitter.com/ken_wheeler&quot;&gt;Ken Wheeler&lt;/a&gt; puts it and I &lt;a href=&quot;https://medium.com/codezillas/a-bitter-guide-to-open-source-a8e3b6a3c1c4&quot;&gt;quote&lt;/a&gt; him:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fuck those people.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I realized putting a constraint is a powerful concept when I decided to code a project exploring what one can do with a single &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; element. Through this, &lt;a href=&quot;https://github.com/manrajgrover/SingleDivProject&quot;&gt;SingleDivProject&lt;/a&gt; was born. Having a constraint enabled me to learn CSS properties I didn’t know existed just to achieve a design I wanted. It was well received and motivated me to code more of successful projects.&lt;/p&gt;
+&lt;p&gt;I started contributing to projects and organizations like DuckDuckGo with great maintainers just to get feedback on my code quality. Do you see how advantageous this is for everyone? I add a feature to their codebase reducing maintainer’s overhead. My code gets reviewed and I get to improve my coding skills. The pull request gets merged and the project users are happy with the new feature. Win-win?&lt;/p&gt;
+&lt;p&gt;Weeks turned into months. Months turned into years. I grew as a developer and so did my ambitions. I started writing packages and command-line tools. I would make sure I do something I haven’t done before. If I learned something new, I would code and incorporate them into my projects.&lt;/p&gt;
+&lt;p&gt;I aligned my new-found interests with Open Source projects and started contributing to deeplearn.js, which later became &lt;a href=&quot;https://js.tensorflow.org&quot;&gt;TensorFlow.js&lt;/a&gt;. I learned a lot about inner workings of a machine learning library, various algorithms and how they can be implemented efficiently. I’ll surely have a separate post where I’ll share my experience contributing to the project.&lt;/p&gt;
+&lt;h2&gt;Why I’m ending it&lt;/h2&gt;
+&lt;p&gt;Yes, why should I end it if everything is going so well? There are a couple of reasons for it:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Learnings&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’ve really learned a lot of things in the past 3 years, from both technical and non-technical perspective. I’m now confident enough to manage my time, pick up new technologies, best practices, work on large codebases, deploy things and a whole lot more. But now, I wish to learn things that can only be achieved if I move away from this constraint of contributing every day. Things that will take more than a day before they can be committed and months to complete.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Changing goals&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’ve achieved the goals I had set for myself with regard to the contribution spree. I’ve checked every single box of the list of goals I had and it’s time to focus on other goals. My interests are inclining more towards research, specifically machine learning and would like to focus on and give full attention to it. Who knows I might start an open source machine learning project? Who knows I might do something like this on &lt;a href=&quot;https://www.kaggle.com/manrajsingh&quot;&gt;Kaggle&lt;/a&gt;? 😉&lt;/p&gt;
+&lt;h2&gt;So, yeah!&lt;/h2&gt;
+&lt;p&gt;I’m ending my contribution spree today i.e. October 12, 2018. It has been an unforgettable experience and I don’t think I will be able to replicate it again. I will still keep contributing to Open Source, keep working on my projects, keep contributing to various organizations, just without worrying about this constraint. I hope it works out well. I love how &lt;a href=&quot;https://medium.com/@jedwatson&quot;&gt;Jed Watson&lt;/a&gt; puts &lt;a href=&quot;https://medium.freecodecamp.org/github-broke-my-1-000-day-streak-6ec0c4c3a7d9&quot;&gt;it&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s been a personal journey played out in a public space, and so this seems like a fitting way to wrap it up.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So, would I now recommend someone to follow in my footsteps? No, definitely not. However, I would recommend smaller sprints of a couple of weeks and a break after that. Put a time frame on something you wish to achieve and have a strict deadline. And don’t forget to reward yourself with your favorite dessert after every achievement.&lt;/p&gt;
+&lt;p&gt;And like always, I encourage more people to contribute to Open Source. Believe me, you will definitely learn a lot! I recommend reading &lt;a href=&quot;https://twitter.com/ken_wheeler&quot;&gt;Ken&lt;/a&gt;’s &lt;a href=&quot;https://medium.com/codezillas/a-bitter-guide-to-open-source-a8e3b6a3c1c4&quot;&gt;guide&lt;/a&gt; to Open Source. I can relate to a lot of things shared in the blog.&lt;/p&gt;
+&lt;p&gt;Let me know if I can be of any help. I’m &lt;a href=&quot;https://twitter.com/manrajsgrover&quot;&gt;@manrajsgrover&lt;/a&gt; on Twitter and &lt;a href=&quot;https://github.com/manrajgrover&quot;&gt;@manrajgrover&lt;/a&gt; on Github.&lt;/p&gt;
+&lt;p&gt;Till next time. ✌️&lt;/p&gt;</content:encoded></item></channel></rss>

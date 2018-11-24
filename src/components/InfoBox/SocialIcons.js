@@ -9,6 +9,10 @@ import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?
 import TwitterIcon from "!svg-react-loader!../../images/svg-icons/twitter.svg?name=TwitterIcon";
 import LinkedinIcon from "!svg-react-loader!../../images/svg-icons/linkedin.svg?name=LinkedinIcon";
 
+import EmailIcon from "!svg-react-loader!../../images/svg-icons/email.svg?name=EmailIcon";
+import MediumIcon from "!svg-react-loader!../../images/svg-icons/medium.svg?name=MediumIcon";
+import QuoraIcon from "!svg-react-loader!../../images/svg-icons/quora.svg?name=QuoraIcon";
+
 const styles = theme => ({
   social: {
     display: "flex",
@@ -43,6 +47,21 @@ const styles = theme => ({
       "& svg": {
         fill: "#007fb1"
       }
+    },
+    "&[title='email']:hover": {
+      "& svg": {
+        fill: "#dc4e41"
+      }
+    },
+    "&[title='medium']:hover": {
+      "& svg": {
+        fill: "#000000"
+      }
+    },
+    "&[title='quora']:hover": {
+      "& svg": {
+        fill: "#b92b27"
+      }
     }
   }
 });
@@ -50,11 +69,15 @@ const styles = theme => ({
 const Socialcons = props => {
   const { classes } = props;
   const items = config.authorSocialLinks;
+
   const icons = {
     twitter: TwitterIcon,
     facebook: FacebookIcon,
     github: GithubIcon,
-    linkedin: LinkedinIcon
+    linkedin: LinkedinIcon,
+    email: EmailIcon,
+    medium: MediumIcon,
+    quora: QuoraIcon
   };
 
   return (

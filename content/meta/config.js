@@ -28,8 +28,11 @@ module.exports = {
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/manrajgrover" },
-    { name: "linkedin", url: "http://linkedin.com/in/manrajsinghgrover" },
     { name: "twitter", url: "https://twitter.com/manrajsgrover" },
+    { name: "linkedin", url: "http://linkedin.com/in/manrajsinghgrover" },
+    { name: "email", url: "mailto:manrajsinghgrover@gmail.com" },
+    { name: "medium", url: "https://medium.com/@manrajsingh" },
+    { name: "quora", url: "https://www.quora.com/profile/Manraj-Singh-2" },
     { name: "facebook", url: "https://www.facebook.com/manrajsgrover" }
   ]
 };

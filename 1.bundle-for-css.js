@@ -47,15 +47,15 @@ webpackJsonp([1],{
 
 	var _SocialIcons2 = _interopRequireDefault(_SocialIcons);
 
-	var _InfoMenu = __webpack_require__(511);
+	var _InfoMenu = __webpack_require__(514);
 
 	var _InfoMenu2 = _interopRequireDefault(_InfoMenu);
 
-	var _InfoHeader = __webpack_require__(512);
+	var _InfoHeader = __webpack_require__(515);
 
 	var _InfoHeader2 = _interopRequireDefault(_InfoHeader);
 
-	var _InfoText = __webpack_require__(514);
+	var _InfoText = __webpack_require__(517);
 
 	var _InfoText2 = _interopRequireDefault(_InfoText);
 
@@ -71,7 +71,7 @@ webpackJsonp([1],{
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	__webpack_require__(515);
+	__webpack_require__(518);
 
 	var styles = function styles(theme) {
 	  var _infoBox;
@@ -239,6 +239,18 @@ webpackJsonp([1],{
 
 	var _linkedin2 = _interopRequireDefault(_linkedin);
 
+	var _email = __webpack_require__(511);
+
+	var _email2 = _interopRequireDefault(_email);
+
+	var _medium = __webpack_require__(512);
+
+	var _medium2 = _interopRequireDefault(_medium);
+
+	var _quora = __webpack_require__(513);
+
+	var _quora2 = _interopRequireDefault(_quora);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var styles = function styles(theme) {
@@ -276,6 +288,21 @@ webpackJsonp([1],{
 	        "& svg": {
 	          fill: "#007fb1"
 	        }
+	      },
+	      "&[title='email']:hover": {
+	        "& svg": {
+	          fill: "#dc4e41"
+	        }
+	      },
+	      "&[title='medium']:hover": {
+	        "& svg": {
+	          fill: "#000000"
+	        }
+	      },
+	      "&[title='quora']:hover": {
+	        "& svg": {
+	          fill: "#b92b27"
+	        }
 	      }
 	    }
 	  };
@@ -285,11 +312,15 @@ webpackJsonp([1],{
 	  var classes = props.classes;
 
 	  var items = _config2.default.authorSocialLinks;
+
 	  var icons = {
 	    twitter: _twitter2.default,
 	    facebook: _facebook2.default,
 	    github: _github2.default,
-	    linkedin: _linkedin2.default
+	    linkedin: _linkedin2.default,
+	    email: _email2.default,
+	    medium: _medium2.default,
+	    quora: _quora2.default
 	  };
 
 	  return _react2.default.createElement(
@@ -405,6 +436,66 @@ webpackJsonp([1],{
 /***/ 511:
 /***/ (function(module, exports, __webpack_require__) {
 
+	var React = __webpack_require__(1);
+
+	function EmailIcon (props) {
+	    return React.createElement("svg",props,React.createElement("path",{"d":"M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"}));
+	}
+
+	EmailIcon.displayName = "EmailIcon";
+
+	EmailIcon.defaultProps = {"viewBox":"0 0 512 512"};
+
+	module.exports = EmailIcon;
+
+	EmailIcon.default = EmailIcon;
+
+
+/***/ }),
+
+/***/ 512:
+/***/ (function(module, exports, __webpack_require__) {
+
+	var React = __webpack_require__(1);
+
+	function MediumIcon (props) {
+	    return React.createElement("svg",props,React.createElement("g",{"id":"surface1"},React.createElement("path",{"style":{},"d":"M 46 13.5 L 44.894531 13.5 C 43.4375 13.507813 42.992188 14.179688 43 15.5 L 43 34 C 43.023438 35.074219 43.46875 35.480469 44.320313 35.5 L 46 35.5 L 46 40.5 L 31 40.5 L 31 35.5 L 34 35.5 L 34 15.5 L 26.105469 40.5 L 21.683594 40.5 L 14 15.5 L 14 35.5 L 16 35.5 L 16 40.5 L 4 40.5 L 4 35.5 L 5 35.5 C 6.492188 35.535156 7 34.128906 7 33.5 L 7 15.5 C 7.011719 14.484375 6.105469 13.472656 5 13.5 L 4 13.5 L 4.027344 7.5 L 19.5 7.5 L 25 25.964844 L 30.5 7.5 L 46 7.5 Z "})));
+	}
+
+	MediumIcon.displayName = "MediumIcon";
+
+	MediumIcon.defaultProps = {"viewBox":"0 0 50 50","version":"1.1","width":"35px","height":"35px"};
+
+	module.exports = MediumIcon;
+
+	MediumIcon.default = MediumIcon;
+
+
+/***/ }),
+
+/***/ 513:
+/***/ (function(module, exports, __webpack_require__) {
+
+	var React = __webpack_require__(1);
+
+	function QuoraIcon (props) {
+	    return React.createElement("svg",props,[React.createElement("g",{"key":0},[React.createElement("title",{"key":0},"background"),React.createElement("rect",{"fill":"none","id":"canvas_background","height":"42","width":"42","y":"-1","x":"-1","key":1})]),React.createElement("g",{"key":1},[React.createElement("title",{"key":0},"Layer 1"),React.createElement("path",{"stroke":"null","id":"Quora","d":"m26.847629,29.356174c3.650048,-2.239806 6.066277,-6.312181 6.066277,-10.944508c0,-7.075752 -5.706413,-12.827981 -12.800872,-12.827981s-12.800872,5.75223 -12.800872,12.827981c0,7.075752 5.706413,12.827981 12.800872,12.827981c1.028182,0 2.056365,-0.101809 3.033138,-0.356333c1.233819,2.188902 3.084547,3.716042 6.991641,3.003377l0,-2.188902c0,0 -2.519047,-0.610856 -3.290184,-2.341616zm-0.102818,-9.264653c0,2.137997 -0.668319,4.072375 -1.799319,5.548611c-1.388046,-1.476236 -3.598639,-2.697948 -6.42614,-2.545234l0,0.254523l0,2.239806c0,0 1.902138,0.050905 3.187366,2.290711c-0.462682,0.152714 -0.976773,0.203619 -1.490865,0.203619c-3.598639,0 -6.528959,-3.563328 -6.528959,-7.992036c0,-0.559952 0,-2.748853 0,-3.308805c0,-4.428708 2.93032,-7.992036 6.528959,-7.992036c3.598639,0 6.528959,3.563328 6.528959,7.992036c0,0.559952 0,2.748853 0,3.308805z","key":1})])]);
+	}
+
+	QuoraIcon.displayName = "QuoraIcon";
+
+	QuoraIcon.defaultProps = {"width":"40","height":"40"};
+
+	module.exports = QuoraIcon;
+
+	QuoraIcon.default = QuoraIcon;
+
+
+/***/ }),
+
+/***/ 514:
+/***/ (function(module, exports, __webpack_require__) {
+
 	"use strict";
 
 	exports.__esModule = true;
@@ -488,7 +579,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 512:
+/***/ 515:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -515,7 +606,7 @@ webpackJsonp([1],{
 
 	var _IconButton2 = _interopRequireDefault(_IconButton);
 
-	var _ExpandMore = __webpack_require__(513);
+	var _ExpandMore = __webpack_require__(516);
 
 	var _ExpandMore2 = _interopRequireDefault(_ExpandMore);
 
@@ -675,7 +766,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 513:
+/***/ 516:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -699,7 +790,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ 514:
+/***/ 517:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";

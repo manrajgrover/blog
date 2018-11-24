@@ -12,17 +12,13 @@
       "path----f72cb60f6b6d45a8ebb1.js",
       "path----f72cb60f6b6d45a8ebb1.js.map"
     ],
-    "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-38e9a864c1d97ba9420c.js",
-      "component---src-pages-contact-js-38e9a864c1d97ba9420c.js.map"
-    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5372d92519f93dc8fbb5.js",
-      "component---src-layouts-index-js-5372d92519f93dc8fbb5.js.map"
+      "component---src-layouts-index-js-3715a71835a52bd792a2.js",
+      "component---src-layouts-index-js-3715a71835a52bd792a2.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -38,10 +34,6 @@
       "commons-e28225b0eff2725cf685.js.map",
       "build-js-styles.css.map"
     ],
-    "path---contact": [
-      "path---contact-a0e39f21c11f6a62c5ab.js",
-      "path---contact-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-templates-post-template-js": [
       "component---src-templates-post-template-js-6fe078857611b97b08a0.js",
       "component---src-templates-post-template-js-6fe078857611b97b08a0.js.map"
@@ -51,9 +43,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-42dd1c41a3f152e26818.js",
+      "app-1c4051dc027830b818b4.js",
       "build-js-styles.css",
-      "app-42dd1c41a3f152e26818.js.map",
+      "app-1c4051dc027830b818b4.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [

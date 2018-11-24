@@ -473,12 +473,7 @@ webpackJsonp([1],{
 	        },
 	        frontmatter.menuTitle ? frontmatter.menuTitle : frontmatter.title
 	      );
-	    }),
-	    _react2.default.createElement(
-	      _gatsbyLink2.default,
-	      { to: "/contact/", onClick: linkOnClick, className: classes.link, "data-shape": "closed" },
-	      "Contact"
-	    )
+	    })
 	  );
 	};
 

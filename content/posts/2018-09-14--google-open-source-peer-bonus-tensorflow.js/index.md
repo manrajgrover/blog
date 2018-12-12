@@ -1,11 +1,11 @@
 ---
-title: "TensorFlow.js: Helping bring machine learning to JavaScript ecosystem"
+title: "Contributing and bringing machine learning to JavaScript ecosystem with TensorFlow.js"
 subTitle: ""
 category: opensource
 cover: TensorFlowJS.png
 ---
 
-It has been great 4 years contributing to open source. I got the opportunity to work with organizations like [Mozilla](https://mozillians.org/en-US/u/manrajsingh/), [DuckDuckGo](https://duckduckhack.com/u/manrajgrover/), [OpenMF](http://mifos.org/) and of course [TensorFlow](https://js.tensorflow.org/). One of my main motive behind contributing to a project is learning. So a year back, when I was exploring the field of Machine Learning, I stumbled upon a project called [deeplearn.js](https://ai.googleblog.com/2017/08/harness-power-of-machine-learning-in.html). It was recently open sourced by [Google + PAIR Code initiative](https://ai.google/research/teams/brain/pair) and focused on bringing machine learning to the web. I decided to get involved in the project for multiple reasons:
+It has been great 4 years contributing to open source. I got the opportunity to work with organizations like [Mozilla](https://mozillians.org/en-US/u/manrajsingh/), [DuckDuckGo](https://duckduckhack.com/u/manrajgrover/), [OpenMF](http://mifos.org/) and of course [TensorFlow](https://js.tensorflow.org/). One of my main motive behind contributing to a project is [learning](https://manrajsingh.in/blog/why-im-ending-commit-a-day/). So a year back, when I was exploring the field of Machine Learning, I stumbled upon a project called [deeplearn.js](https://ai.googleblog.com/2017/08/harness-power-of-machine-learning-in.html). It was recently open sourced by [Google + PAIR Code initiative](https://ai.google/research/teams/brain/pair) and focused on bringing machine learning to the web. I decided to get involved in the project for multiple reasons:
 
 <img src="deeplearnjs.jpg" style="max-width: 150px;"/>
 <p align="center">
